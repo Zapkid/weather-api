@@ -2,6 +2,10 @@
 
 This project contains Cypress tests for the [WeatherAPI](https://www.weatherapi.com/docs "WeatherAPI Docs") service, including API and UI tests on the WeatherAPI [Explorer](https://www.weatherapi.com/api-explorer.aspx#search "Interactive API Explorer").
 
+## Setup
+
+* Run `npm i` if cloned from  [GitHub repository](https://github.com/Zapkid/weather-api "GitHub repository").
+
 ## Running tests with one click
 
 1. Run tests by running `run-tests` scripts in `package.json`. \
@@ -21,7 +25,7 @@ For a better test review experience with tons of benefits, open the Cypress app 
    ![Cypress Browsers](cypress/assets/Cypress%20choose%20browser.png "Cypress Browsers")
 4. Choose Browser - special cypress browser will open.
    ![Cypress Specs](cypress/assets/Cypress%20specs.png "Cypress Test")
-5. Choose tests to run - API or Web UI test files.
+5. Choose tests file to run - API or Web UI test files.
 
 ### [Cypress Key Features](https://docs.cypress.io/guides/overview/why-cypress#Features)
 
