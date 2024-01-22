@@ -1,0 +1,24 @@
+{
+  "name": "cypress",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "run-tests:headless": "npx cypress run --browser chrome --spec cypress/e2e/*.cy.ts",
+    "run-tests:headed": "npx cypress run --browser chrome --headed --spec cypress/e2e/*.cy.ts",
+    "open-cypress": "npx cypress open"
+  },
+  "author": "Rowan Kendal",
+  "license": "ISC",
+  "devDependencies": {
+    "@typescript-eslint/eslint-plugin": "^6.18.1",
+    "@typescript-eslint/parser": "^6.18.1",
+    "axios": "^1.6.5",
+    "cypress": "^13.6.2",
+    "cypress-plugin-api": "^2.11.1",
+    "eslint": "^8.56.0",
+    "prettier": "^3.1.1",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.3.3"
+  }
+}
