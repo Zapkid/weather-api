@@ -7,7 +7,7 @@ This project contains Cypress tests for the [WeatherAPI](https://www.weatherapi.
 1. Run tests by running `run-tests` scripts in `package.json`. \
    Cypress will run the tests in cypress 'run' mode.
 
-- Run in headless mode to review results in terminal only. \
+- Run in headless mode to review results in terminal only.
 - Run in headed mode to also see the test running in the browser (browser will close after each file tests have completed).
 
 For a better test review experience with tons of benefits, open the Cypress app & run tests from there in cypress 'open' mode.
@@ -21,7 +21,7 @@ For a better test review experience with tons of benefits, open the Cypress app 
    ![Cypress Browsers](cypress/assets/Cypress%20choose%20browser.png "Cypress Browsers")
 4. Choose Browser - special cypress browser will open.
    ![Cypress Specs](cypress/assets/Cypress%20specs.png "Cypress Test")
-5. Choose tests file to run - API or UI tests file.
+5. Choose tests to run - API or Web UI test files.
 
 ### [Cypress Key Features](https://docs.cypress.io/guides/overview/why-cypress#Features)
 
