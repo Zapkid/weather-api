@@ -1,5 +1,5 @@
 import { testWeatherApi } from "../suites/weather-api-tests";
-import { dateUtils } from "../support/utils";
+import { dateUtils } from "../utils/date-utils";
 
 testWeatherApi("Paris", dateUtils.getDateXDaysAgo(3), "Paris", "France");
 

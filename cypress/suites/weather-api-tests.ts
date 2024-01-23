@@ -5,7 +5,7 @@ import {
   weatherApiSearchPage,
 } from "../pages/weather-api-search-page";
 import { weatherApiKey } from "../support/env";
-import { dateUtils } from "../support/utils";
+import { dateUtils } from "../utils/date-utils";
 import { weatherHistoryResponse } from "../types/weather-api-types";
 
 export function testWeatherApi(
