@@ -5,7 +5,9 @@ import * as path from "path";
 const directory = "cypress/fixtures";
 
 export default defineConfig({
-  // experimentalInteractiveRunEvents: true,
+  viewportHeight: 660,
+  viewportWidth: 1000,
+  watchForFileChanges: false,
   e2e: {
     baseUrl: 'https://www.weatherapi.com/api-explorer.aspx#search',
     setupNodeEvents(on, config) {
